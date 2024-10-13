@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-padding-top: 74px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ebecf2;
+}
+
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  width: 50px;
+  height: 3px;
+  background-color: #039dff;
+  margin: 0 auto 20px auto;
+}
+
+nav {
+  text-transform: uppercase;
+  z-index: 1;
+  transition: background-color 0.5s;
+}
+nav .navbar-toggler {
+  padding: 10px 15px;
+}
+nav .navbar-brand {
+  font-weight: bold;
+}
+nav .nav-link,
+nav .navbar-nav .show > .nav-link,
+nav .navbar-brand,
+nav .fa-bars {
+  color: #fff;
+}
+nav .nav-link:focus,
+nav .nav-link:hover,
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .show > .nav-link,
+nav .navbar-brand:focus,
+nav .navbar-brand:hover {
+  color: #039dff;
+}
+
+header.hero-img {
+  position: relative;
+  height: 100vh;
+  color: #fff;
+  background-image: url("../img/code-640.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 0;
+  text-align: center;
+  padding: 20px;
+}
+header.hero-img h1 {
+  text-transform: uppercase;
+}
+header.hero-img .hero-text {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header.hero-img .blue-text {
+  color: #039dff;
+}
+header.hero-img .hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: -5;
+}
+header.hero-img .fa-chevron-down {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  color: #039dff;
+}
+
+.aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.aboutus .aboutus-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.aboutus .aboutus-hover {
+  transition: box-shadow 0.7s;
+}
+.aboutus .aboutus-hover:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.aboutus-hero {
+  position: relative;
+  background-image: url(../img/processor-640.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ddd;
+  z-index: 0;
+}
+.aboutus-hero .aboutus-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -5;
+}
+.aboutus-hero .aboutus-hero-item {
+  margin: 10px 0;
+}
+.aboutus-hero .aboutus-hero-item i {
+  font-size: 30px;
+}
+.aboutus-hero .aboutus-hero-item .aboutus-hero-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.portfolio .carousel-item {
+  height: 600px;
+}
+.portfolio .carousel-caption {
+  right: 0;
+  left: 0;
+  padding: 40px 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.portfolio .carousel-indicators {
+  padding-bottom: 20px;
+}
+
+.prices .price-box {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.7s, box-shadow 0.7s;
+}
+.prices .price-box .price-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #039dff;
+}
+.prices .price-box .underline {
+  width: 75%;
+  height: 2px;
+  background-color: #ebecf2;
+  margin: 0 auto 20px auto;
+}
+.prices .price-box .price-tag {
+  font-size: 30px;
+  font-weight: bold;
+  color: #039dff;
+}
+.prices .price-box .btn {
+  background-color: #039dff;
+  border: solid 1px rgba(42, 28, 167, 0.2588235294);
+  transition: scale 0.7s;
+}
+.prices .price-box .btn:hover {
+  scale: 1.1;
+}
+.prices .price-info {
+  margin-top: 30px;
+}
+.prices .price-info a {
+  text-decoration: none;
+}
+.prices .price-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 50%;
+  background-color: #039dff;
+  display: none;
+  z-index: 1000;
+}
+
+.to-top.show {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .hero-text h1 {
+    font-size: 44px;
+  }
+  .hero-text p {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    scroll-padding-top: 72px;
+  }
+}
+@media (min-width: 1200px) {
+  header.hero-img {
+    background-image: url("../img/code-1920.jpg");
+  }
+  .aboutus-hero {
+    background-image: url("../img/processor-1920.jpg");
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML + CSS + BOOTSTRAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://kit.fontawesome.com/c37bbcc5c4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-solid fa-bootstrap"></i> bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" href="#home">Home</a>
+                    <a class="nav-link" href="#aboutus">o nas</a>
+                    <a class="nav-link" href="#portfolio">portfolio</a>
+                    <a class="nav-link" href="#prices">ceny</a>
+                    <a class="nav-link" href="#team">zespół</a>
+                    <a class="nav-link" href="#achievements">osiągnięcia</a>
+                    <a class="nav-link" href="#contact">kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-img" id="home">
+        <div class="hero-text">
+            <h1>Pierwszy projekt w <span class="blue-text">Bootstrap</span></h1>
+            <p>Liczę na to, że się spodoba ✌️</p>
+            <a href="#aboutus" class="btn btn-light mt-2 text-uppercase">poznaj mnie</a>
+            <a href="#aboutus"><i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+        <div class="hero-shadow"></div>
+    </header>
+
+    <main>
+        <section id="aboutus" class="aboutus bg-light py-5">
+            <div class="container">
+                <h2 class="section-title">o mnie</h2>
+                <div class="underline"></div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <p><i class="fa-solid fa-mobile-screen-button"></i></p>
+                        <p class="aboutus-card-title mb-1">Usługi mobilne</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <p><i class="fa-solid fa-desktop"></i></p>
+                        <p class="aboutus-card-title mb-1">Programowanie</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <p><i class="fa-solid fa-file-code"></i></p>
+                        <p class="aboutus-card-title mb-1">Odzyskiwanie plików</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <p><i class="fa-solid fa-paw"></i></p>
+                        <p class="aboutus-card-title mb-1">Opieka nad zwierzętami</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <p><i class="fa-solid fa-burger"></i></p>
+                        <p class="aboutus-card-title mb-1">Gastronomia</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
+                        <p><i class="fa-solid fa-champagne-glasses"></i></p>
+                        <p class="aboutus-card-title mb-1">Imprezy firmowe</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="aboutus-hero py-5">
+            <div class="aboutus-shadow"></div>
+
+            <div class="container py-5">
+                <h2 class="section-title">Technologie</h2>
+                <div class="underline"></div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-4 text-center aboutus-hero-item">
+                        <p class="aboutus-hero-title mb-1 pb-2">HTML5</p>
+                        <p><i class="fa-brands fa-html5"></i></p>
+                        <p class="aboutus-hero-text">W trakcie kursów.</p>
+                    </div>
+                    <div class="col-md-4 text-center aboutus-hero-item">
+                        <p class="aboutus-hero-title mb-1 pb-2">CSS3</p>
+                        <p><i class="fa-brands fa-css3-alt"></i></p>
+                        <p class="aboutus-hero-text">W trakcie kursów.</p>
+                    </div>
+                    <div class="col-md-4 text-center aboutus-hero-item">
+                        <p class="aboutus-hero-title mb-1 pb-2">JavaScript</p>
+                        <p><i class="fa-brands fa-js"></i></p>
+                        <p class="aboutus-hero-text">W trakcie kursów.</p>
+                    </div>
+                    <div class="col-md-4 text-center aboutus-hero-item">
+                        <p class="aboutus-hero-title mb-1 pb-2">.Net</p>
+                        <p><i class="fa-solid fa-keyboard"></i></p>
+                        <p class="aboutus-hero-text">ASP.Net, WebAPI, WPF, WinForms, MVVM, MVC.</p>
+                    </div>
+                    <div class="col-md-4 text-center aboutus-hero-item">
+                        <p class="aboutus-hero-title mb-1 pb-2">Dodatkowe</p>
+                        <p><i class="fa-solid fa-computer"></i></p>
+                        <p class="aboutus-hero-text">GitHub, Jenkins, Jira, SQL.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio py-5">
+            <h2 class="section-title">portfolio</h2>
+            <div class="underline"></div>
+
+            <div class="container">
+                <div class="card-group d-lg-none">
+                    <div class="card mb-3">
+                        <img src="img/coding-640.jpg" class="card-img-top" alt="Image representing programming code">
+                        <div class="card-body">
+                            <h5 class="card-title">Coding</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <img src="img/desktop-640.jpg" class="card-img-top"
+                            alt="Image representing desktop and laptop and phone on it">
+                        <div class="card-body">
+                            <h5 class="card-title">Desktop</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="carouselExampleCaptions" class="carousel slide d-none d-lg-block">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/img/coding-1920.jpg" class="d-block w-100"
+                                alt="Image representing programming code">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Coding</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/desktop-1920.jpg" class="d-block w-100"
+                                alt="Image representing desktop and laptop and phone on it">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Desktop</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="prices" class="prices py-5">
+            <h2 class="section-title">ceny</h2>
+            <div class="underline"></div>
+
+            <div class="container">
+                <div class="price-wrap row text-center justify-content-center">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="price-box">
+                            <p class="price-title">Example1</p>
+                            <div class="underline"></div>
+                            <p><span>Example1: </span>Placeholder</p>
+                            <p><span>Example1: </span>Placeholder</p>
+                            <p><span>Example1: </span>Placeholder</p>
+                            <p><span>Example1: </span>Placeholder</p>
+                            <p class="price-tag">129zł</p>
+                            <button class="btn btn-primary">Dodaj do koszyka</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="price-box">
+                            <p class="price-title">Example2</p>
+                            <div class="underline"></div>
+                            <p><span>Example2: </span>Placeholder</p>
+                            <p><span>Example2: </span>Placeholder</p>
+                            <p><span>Example2: </span>Placeholder</p>
+                            <p><span>Example2: </span>Placeholder</p>
+                            <p class="price-tag">229zł</p>
+                            <button class="btn btn-primary">Dodaj do koszyka</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="price-box">
+                            <p class="price-title">Example3</p>
+                            <div class="underline"></div>
+                            <p><span>Example3: </span>Placeholder</p>
+                            <p><span>Example3: </span>Placeholder</p>
+                            <p><span>Example3: </span>Placeholder</p>
+                            <p><span>Example3: </span>Placeholder</p>
+                            <p class="price-tag"> 359zł</p>
+                            <button class="btn btn-primary">Dodaj do koszyka</button>
+                        </div>
+                    </div>
+
+                    <p class="price-info">Skorzystaj z jednego z trzech głównych pakietów lub <a
+                            href="#contact">skontaktuj
+                            się</a> z nami i ustal warunki indywidualne!</p>
+                    <p class="text-muted">Pakiet <strong>PLACEHOLDER</strong> lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Cumque, quia?</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+        <button class="btn btn-primary to-top" id="scrollToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    </main>
+
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
