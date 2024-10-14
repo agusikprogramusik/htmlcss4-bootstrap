@@ -246,6 +246,82 @@ header.hero-img {
 	}
 }
 
+// Team Section
+
+.team {
+	position: relative;
+	background-image: url("/img/team/background.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 0;
+
+	.section-title {
+		color: $white;
+	}
+
+	.team-shadow {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: -5;
+	}
+
+	.card {
+		transition: scale 0.7s;
+		border: none;
+
+		.card-body {
+			height: 160px;
+			overflow: scroll;
+		}
+
+		img {
+			height: 300px;
+			object-fit: cover;
+		}
+
+		i {
+			padding: 10px;
+		}
+	}
+
+	.card-title {
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.card:hover {
+		scale: 0.98;
+	}
+}
+
+// Achievements Section
+
+.achievements-list {
+	padding: 20px 0;
+	i {
+		padding: 10px;
+		font-size: 48px;
+		color: $white;
+		text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	}
+
+	.achievement-number {
+		padding: 15px 0;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.achievement-text {
+		font-size: 18px;
+	}
+}
+
 // To-Top Button
 
 .to-top {
