@@ -322,6 +322,17 @@ header.hero-img {
 	}
 }
 
+// Contact Section
+
+.contact {
+	background-image: url("/img/city-640.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	.contact-us {
+		//TODO: Add styles
+	}
+}
+
 // To-Top Button
 
 .to-top {
@@ -363,5 +374,9 @@ header.hero-img {
 
 	.aboutus-hero {
 		background-image: url("../img/processor-1920.jpg");
+	}
+
+	.contact {
+		background-image: url("../img/city-1920.jpg");
 	}
 }
