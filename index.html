@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <script src="https://kit.fontawesome.com/c37bbcc5c4.js" crossorigin="anonymous"></script>
 </head>
@@ -40,10 +41,11 @@
 
     <header class="hero-img" id="home">
         <div class="hero-text">
-            <h1>Pierwszy projekt w <span class="blue-text">Bootstrap</span></h1>
-            <p>Liczę na to, że się spodoba ✌️</p>
-            <a href="#aboutus" class="btn btn-light mt-2 text-uppercase">poznaj mnie</a>
-            <a href="#aboutus"><i class="fa-solid fa-chevron-down"></i></a>
+            <h1 data-aos="fade-up" data-aos-delay="200">Pierwszy projekt w <span class="blue-text">Bootstrap</span></h1>
+            <p data-aos="fade-up" data-aos-delay="400">Liczę na to, że się spodoba ✌️</p>
+            <a data-aos="fade-up" data-aos-delay="600" href="#aboutus" class="btn btn-light mt-2 text-uppercase">poznaj
+                mnie</a>
+            <a href="#aboutus"><i class="fa-solid fa-chevron-down bounce-top"></i></a>
         </div>
         <div class="hero-shadow"></div>
     </header>
@@ -55,38 +57,48 @@
                 <div class="underline"></div>
 
                 <div class="row">
-                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
-                        <p><i class="fa-solid fa-mobile-screen-button"></i></p>
-                        <p class="aboutus-card-title mb-1">Usługi mobilne</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="50" class="col-sm-6 col-md-4">
+                        <div class="text-center aboutus-hover">
+                            <p><i class="fa-solid fa-mobile-screen-button"></i></p>
+                            <p class="aboutus-card-title mb-1">Usługi mobilne</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
-                        <p><i class="fa-solid fa-desktop"></i></p>
-                        <p class="aboutus-card-title mb-1">Programowanie</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="250" class="col-sm-6 col-md-4">
+                        <div class="text-center aboutus-hover">
+                            <p><i class="fa-solid fa-desktop"></i></p>
+                            <p class="aboutus-card-title mb-1">Programowanie</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
-                        <p><i class="fa-solid fa-file-code"></i></p>
-                        <p class="aboutus-card-title mb-1">Odzyskiwanie plików</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="550" class="col-sm-6 col-md-4">
+                        <div class="text-center aboutus-hover">
+                            <p><i class="fa-solid fa-file-code"></i></p>
+                            <p class="aboutus-card-title mb-1">Odzyskiwanie plików</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
-                        <p><i class="fa-solid fa-paw"></i></p>
-                        <p class="aboutus-card-title mb-1">Opieka nad zwierzętami</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="550" class="col-sm-6 col-md-4">
+                        <div class="text-center aboutus-hover">
+                            <p><i class="fa-solid fa-paw"></i></p>
+                            <p class="aboutus-card-title mb-1">Opieka nad zwierzętami</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
-                        <p><i class="fa-solid fa-burger"></i></p>
-                        <p class="aboutus-card-title mb-1">Gastronomia</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="250" class="col-sm-6 col-md-4">
+                        <div class="text-center aboutus-hover">
+                            <p><i class="fa-solid fa-burger"></i></p>
+                            <p class="aboutus-card-title mb-1">Gastronomia</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-md-4 text-center aboutus-hover">
-                        <p><i class="fa-solid fa-champagne-glasses"></i></p>
-                        <p class="aboutus-card-title mb-1">Imprezy firmowe</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                    <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="50" class="col-sm-6 col-md-4">
+                        <div class="text-center aboutus-hover">
+                            <p><i class="fa-solid fa-champagne-glasses"></i></p>
+                            <p class="aboutus-card-title mb-1">Imprezy firmowe</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, atque.</p>
+                        </div>
                     </div>
-
-
                 </div>
 
             </div>
@@ -100,27 +112,32 @@
                 <div class="underline"></div>
 
                 <div class="row justify-content-center">
-                    <div class="col-md-4 text-center aboutus-hero-item">
+                    <div data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000"
+                        class="col-md-4 text-center aboutus-hero-item">
                         <p class="aboutus-hero-title mb-1 pb-2">HTML5</p>
                         <p><i class="fa-brands fa-html5"></i></p>
                         <p class="aboutus-hero-text">W trakcie kursów.</p>
                     </div>
-                    <div class="col-md-4 text-center aboutus-hero-item">
+                    <div data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000"
+                        class="col-md-4 text-center aboutus-hero-item">
                         <p class="aboutus-hero-title mb-1 pb-2">CSS3</p>
                         <p><i class="fa-brands fa-css3-alt"></i></p>
                         <p class="aboutus-hero-text">W trakcie kursów.</p>
                     </div>
-                    <div class="col-md-4 text-center aboutus-hero-item">
+                    <div data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000"
+                        class="col-md-4 text-center aboutus-hero-item">
                         <p class="aboutus-hero-title mb-1 pb-2">JavaScript</p>
                         <p><i class="fa-brands fa-js"></i></p>
                         <p class="aboutus-hero-text">W trakcie kursów.</p>
                     </div>
-                    <div class="col-md-4 text-center aboutus-hero-item">
+                    <div data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000"
+                        class="col-md-4 text-center aboutus-hero-item">
                         <p class="aboutus-hero-title mb-1 pb-2">.Net</p>
                         <p><i class="fa-solid fa-keyboard"></i></p>
                         <p class="aboutus-hero-text">ASP.Net, WebAPI, WPF, WinForms, MVVM, MVC.</p>
                     </div>
-                    <div class="col-md-4 text-center aboutus-hero-item">
+                    <div data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000"
+                        class="col-md-4 text-center aboutus-hero-item">
                         <p class="aboutus-hero-title mb-1 pb-2">Dodatkowe</p>
                         <p><i class="fa-solid fa-computer"></i></p>
                         <p class="aboutus-hero-text">GitHub, Jenkins, Jira, SQL.</p>
@@ -339,32 +356,32 @@
 
             <div class="container">
                 <div class="row text-center achievements-list">
-                    <div class="col-md-6 col-lg-4 col-xl-2">
+                    <div data-aos="zoom-in" data-aos-delay="50" class="col-md-6 col-lg-4 col-xl-2">
                         <i class="fas fa-thumbs-up"></i>
                         <p class="achievement-number">99%</p>
                         <p class="achievement-text">Zadowolonych użytkowników</p>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-2">
+                    <div data-aos="zoom-in" data-aos-delay="200" class="col-md-6 col-lg-4 col-xl-2">
                         <i class="fas fa-trophy"></i>
                         <p class="achievement-number">40</p>
                         <p class="achievement-text">Zdobytych nagród</p>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-2">
+                    <div data-aos="zoom-in" data-aos-delay="350" class="col-md-6 col-lg-4 col-xl-2">
                         <i class="fas fa-user-friends"></i>
                         <p class="achievement-number">20</p>
                         <p class="achievement-text">Pracowników</p>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-2">
+                    <div data-aos="zoom-in" data-aos-delay="350" class="col-md-6 col-lg-4 col-xl-2">
                         <i class="fas fa-building"></i>
                         <p class="achievement-number">1</p>
                         <p class="achievement-text">Nowoczesne biuro</p>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-2">
+                    <div data-aos="zoom-in" data-aos-delay="200" class="col-md-6 col-lg-4 col-xl-2">
                         <i class="fas fa-dice"></i>
                         <p class="achievement-number">40</p>
                         <p class="achievement-text">Wygranych projektów</p>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-2">
+                    <div data-aos="zoom-in" data-aos-delay="50" class="col-md-6 col-lg-4 col-xl-2">
                         <i class="fas fa-share-nodes"></i>
                         <p class="achievement-number">70.000</p>
                         <p class="achievement-text">Obserwujących</p>
@@ -373,6 +390,43 @@
             </div>
         </section>
 
+
+        <section id="contact" class="contact py-5">
+            <h2 class="section-title">kontakt</h2>
+            <div class="underline"></div>
+
+            <div class="container">
+                <div class="row text-center contact-us">
+                    <div class="col-sm-6 col-lg-4 contact-item order-1">
+                        <h3>główna siedziba</h3>
+                        <p>ul. Mieszkalna 9</p>
+                        <p>80-880 Warszawa</p>
+                        <p>+48 000 000 000</p>
+                        <p>mail@mailto.com</p>
+                    </div>
+                    <div class="col-lg-4 contact-item order-0 order-lg-1">
+                        <h3>social media</h3>
+                        <div class="social-media">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 contact-item order-1">
+                        <h3>siedziba w krakowie</h3>
+                        <p>ul. Sezamkowa 9</p>
+                        <p>00-000 Kraków</p>
+                        <p>+48 000 000 000</p>
+                        <p>mail@mailto.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-shadow"></div>
+        </section>
+
+        <footer class="bg-dark text-light py-4 text-center">
+            <p class="mb-0">&copy; 2024 | Radosław Bitner</p>
+        </footer>
 
         <button class="btn btn-primary to-top" id="scrollToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
     </main>
@@ -386,6 +440,15 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            startEvent: 'DOMContentLoaded',
+            offset: 200,
+            once: true,
+
+        });
+    </script>
     <script src="./js/script.js"></script>
     <script src="./js/slick.js"></script>
 </body>
